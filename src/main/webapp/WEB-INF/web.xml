@@ -1,0 +1,31 @@
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+
+    <servlet>
+        <servlet-name>demoServlet</servlet-name>
+        <servlet-class>com.lvmama.framework.demo.DemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demoServlet</servlet-name>
+        <url-pattern>/demo.do</url-pattern>
+    </servlet-mapping>
+
+   <!-- <filter>
+        <filter-name>cat-filter</filter-name>
+        <filter-class>com.dianping.cat.servlet.CatFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>cat-filter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>FORWARD</dispatcher>
+    </filter-mapping>-->
+
+
+</web-app>
